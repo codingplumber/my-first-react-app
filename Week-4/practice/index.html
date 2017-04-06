@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <nav>
+      <a ui-sref="home" style="cursor: pointer">Home</a>
+      <hr/>
+    </nav>
+    <h1><u>Welcome to Star Wars List of Planets</u></h1>
+
+    <ui-view></ui-view>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.3/angular.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.4.2/angular-ui-router.js"></script>
+    <script src="./apps.js"></script>
+    <script src="./home/homeCtrl.js"></script>
+    <script src="./display/displayCtrl.js"></script>
+    <script src="./mainSrvc.js"></script>
+  </body>
+</html>
