@@ -1,0 +1,30 @@
+<h1>Welcome</h1>
+
+<div class="page-wrapper">
+
+  <div class="sign-up-wrapper">
+    <form class="form" ng-submit="signUp(newUser)">
+      <p>Sign up today!</p>
+      <p>First name:</p>
+      <input type="text" placeholder="first name" ng-model="newUser.firstname" required>
+      <p>Last name:</p>
+      <input type="text" placeholder="last name" ng-model="newUser.lastname" required>
+      <p>Username:</p>
+      <input type="text" placeholder="username" ng-model="newUser.username" required>
+      <p>Password:</p>
+      <input type="password" placeholder="password" ng-model="newUser.password" required>
+      <button type="submit" name="button">Submit</button>
+    </form>
+  </div>
+
+  <div class="login-wrapper">
+    <p>Login Here!</p>
+    <form class="form" ng-submit="login(user)" required>
+      <p>Username</p>
+      <input type="text" placeholder="username" ng-model="user.username" required>
+      <p>Password:</p>
+      <input type="password" placeholder="password" ng-model="user.password" required>
+      <button type="submit" name="button">Submit</button>
+    </form>
+  </div>
+</div>

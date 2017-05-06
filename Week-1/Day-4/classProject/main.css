@@ -1,0 +1,34 @@
+.wrapper {
+  height: 100vh;
+  width: 100%;
+  background: url("https://s3.amazonaws.com/www-assets.invisionapp.com/marketplace/assets/mp-hero-01.jpg") no-repeat;
+  background-position: top 0 left -280px;
+  background-size: cover;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 28px;
+  height: 65px;
+}
+
+.logo {
+  width: 200px;
+  height: 65px;
+}
+
+.contact-container {
+  display: flex;
+  align-items: center;
+  color: rgba(0,0,0,0.6);
+}
+
+@media(min-width: 750px) {
+  .main-header {
+    height: 100px;
+  }
+  .logo {
+    height: 100px;
+  }
+}

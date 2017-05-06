@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html ng-app="app">
+  <head>
+    <meta charset="utf-8">
+    <title>Angular Directives</title>
+  </head>
+  <body ng-controller="mainCtrl">
+    <input value="Jason"/>
+
+    <login-form title="Login here" button-text="Login"></login-form>
+    
+    <login-form title="Returning User" user-email="user.email"
+    button-text="Welcome back"></login-form>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.3/angular.js"></script>
+    <script src="./app.js"></script>
+    <script src="./mainCtrl.js"></script>
+    <script src="./loginDirective.js"></script>
+  </body>
+</html>

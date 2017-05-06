@@ -1,0 +1,27 @@
+body {
+  background-color: blue;
+}
+
+.box {
+  width: 33%;
+  height: 100vh;
+}
+
+#left {
+  background-color: red;
+}
+
+
+#right {
+  background-color: green;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#small-box {
+  height: 100px;
+  width: 100%;
+  position: relative;
+  bottom: 0;
+}

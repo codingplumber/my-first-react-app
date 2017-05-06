@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Oswald');
+
+html {
+  font-family: 'Oswald', sans-serif;
+}
+
+.nav-bar {
+  height: 220px;
+  width: 100%;
+  position: fixed;
+  background: #fff;
+}
+
+.top-image {
+  height: 1175px;
+  width: 100%;
+  background: url("wot-masthead-dark.jpg") no-repeat;
+  background-size: cover;
+  background-position: top 0 left -280px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 240px;
+}
+
+.top-text {
+    color: #fff;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.your-digital-text {
+  font-size: 80px;
+}
+
+.workshop-text {
+  font-size: 160px;
+}
+
+.hyphen-text {
+  /*font-size: 55px;*/
+  height: 80px;
+  width: 160px;
+}
+
+.building-business-text {
+  font-size: 75px;
+}
+
+.solution-text {
+  font-size: 75px;
+  color: orange;
+}
+
+.bright-text {
+  font-size: 75px;
+}
+
+.ideas-text {
+  font-size: 75px;
+  color: #bdd434;
+}
+
+.button-container {
+  display: flex;
+  align-content: flex-end;
+  justify-content: center;
+  height: 150px;
+  width: 80%;
+  border-radius: 75px;
+  background: #bdd434;
+}
+
+.button {
+  color: #fff;
+  text-align: center;
+  font-size: 75px;
+}
+
+.intro {
+  height: 2200px;
+  background: whitesmoke;
+  padding-top: 95px;
+  padding-left: 45px;
+  padding-right: 45px;
+}
+
+.intro-div {
+  font-size: 85px;
+  text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.intro-text {
+  color: #7c7b7b;
+  line-height: 145%;
+  padding-bottom: 80px;
+}
+
+.intro-image-div {
+  display: flex;
+  justify-content: center;
+}
+
+.intro-image {
+  height: 300px;
+  width: 300px;
+  background: lightcoral;
+}
+
+.intro-bottom-text {
+  font-size: 140px;
+  color: #7c7b7b;
+  padding-top: 80px;
+  text-align: center;
+}
+
+.intro-bottom-text span {
+  font-size: 140px;
+  color: #bdd434;
+  text-align: center;
+}
